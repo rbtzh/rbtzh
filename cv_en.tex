@@ -1,0 +1,156 @@
+% LaTeX Curriculum Vitae
+% Author: Xovee Xu (https://xovee.cn)
+% Last Update: Feb 1, 2024
+% Latest Version (consider give me a star!): https://github.com/Xovee/latex-cv
+% Overleaf Link: https://www.overleaf.com/latex/templates/xovees-cv-template/rrsmqwhbygcf
+% Current Version: v0.96
+% LICENSE: MIT
+
+
+\documentclass{article}
+% \documentclass{ctexart}
+\usepackage[utf8]{inputenc}
+\usepackage[full]{textcomp}
+\usepackage{CJKutf8}
+\usepackage[lf]{ebgaramond}
+% \usepackage[scaled,swashQ]{garamondx}
+\usepackage[T1]{fontenc}
+
+% \setallmainfonts{Times New Roman}
+% \setCJKmainfont[AutoFakeBold=true]{SimSun}
+% \newCJKfontfamily{\heiti}[AutoFakeBold={3.17}]{SimHei}
+
+\usepackage{enumitem}
+\usepackage[a4paper,left=.7in, right=.7in, top=.7in, bottom=.7in]{geometry}
+\usepackage{url}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{amsmath}
+\usepackage{eqparbox}
+
+% package settings
+\usepackage[
+    hidelinks,
+    pdfnewwindow=true,
+    pdfauthor={Xovee Xu},
+    pdftitle={Curriculum Vitae of Xovee Xu},
+    pdfpagemode=UseThumbs,
+]{hyperref}
+
+\begin{CJK}{UTF8}{gbsn}
+\pagestyle{headings}
+\markright{\textbf{赵彦博}}
+\end{CJK}
+
+\setlength\parindent{2em}
+
+\thispagestyle{empty}
+
+% define cv section
+\newcommand{\cvsection}[1]{\section*{\rmfamily#1}}
+\newcommand{\cvsubsection}[1]{\subsection*{\rmfamily\hspace{1.6em}#1}}
+\newcommand{\HL}[1]{\textbf{\color{red}#1}}
+
+% begin
+\begin{document}
+\begin{CJK}{UTF8}{gbsn}
+
+% name
+\begin{center}
+    \Huge{
+    \rmfamily
+    \textbf{赵彦博}}
+\end{center}
+\vspace{20pt}
+
+
+\setlength{\parskip}{1pt}
+\renewcommand{\arraystretch}{1.25}
+
+% Contact Information
+
+\noindent 通信与信息工程学院（人工智能学院）  \hfill (+86) 17643302136
+
+\noindent 西安邮电大学\hfill \href{mailto:hi@zhaoyanbo.com}{\texttt{hi@zhaoyanbo.com}}
+
+\noindent 西安，陕西，中国  710121\hfill \url{https://www.zhaoyanbo.com}
+
+
+\setlength{\parskip}{3pt}
+
+
+% Education
+\cvsection{教育经历}
+\indent 
+
+\textbf{西安邮电大学}，西安，中国
+
+\hspace{2em}学士，通信工程，2025
+
+\hspace{2em}GPA: 3.54/5 (最近两个学期)
+
+\hspace{2em}北斗智能时空信息技术实验室
+
+% Skills
+\cvsection{技术能力}
+\indent 
+
+\textbf{编程相关能力}
+
+\hspace{2em}\textbf{编程：}C, Golang, Python, Kotlin, JavaScript, Matlab
+
+\hspace{2em}\textbf{框架：}React.js, Vue,js, PyQt6, Jetpack Compose, Arduino, ESP32
+
+\hspace{2em}\textbf{开发工具：}Git, Docker, AWS, Jetbrains Suite
+
+\textbf{语言能力}
+
+\hspace{2em}\textbf{中文（普通话）} 母语水平
+
+\hspace{2em}\textbf{英语} 具备流畅沟通能力，CET4 分数为 607，IELTS 分数为 7.5（其中阅读与听力的分数为 9 和 8.5）
+
+
+\textbf{其他能力}
+
+
+\hspace{2em}\textbf{平面设计/界面设计/字体排印：}Affinity Photo, Affinity Designer, Affinity Publisher, Figma
+
+\hspace{2em}\textbf{CAD：}KiCAD, EasyEDA(Lichuang EDA), AutoCAD, LibreCAD 
+
+\hspace{2em}\textbf{影像制作：}Davinci Resolve, Adobe Premiere Pro, Kdenlive
+
+
+% Selected Projects
+\cvsection{项目经历}
+\indent 
+
+\hangindent=2em\textbf{PID 与视觉识别的滚球控制：} 在 "TI 杯 "竞赛的这个项目中，我负责设计程序框架、开发实际代码（使用 microPython）以及管理项目进度。该项目旨在利用视觉检测来控制滚动球的运动，并通过 STM32 上的 OpenMV 和 PID 控制方法来实现。这个项目为我在项目管理、代码开发和系统设计方面提供了宝贵的经验。
+
+
+% distinction, award, honor, and fellowship
+\cvsection{获奖经历}
+\indent
+
+\hangindent=2emAmazon AWS Certified Cloud Practitioner Certification
+
+\hangindent=2em“挑战杯”全国大学生课外学术科技作品竞赛，校级二等奖
+
+\hangindent=2em“TI杯“全国大学生电子设计竞赛，校级二等奖
+
+
+% \cvsection{社团活动}
+% \indent
+
+% \hangindent=2em\textbf{大学生艺术团：} 参加大学生艺术团主持朗诵部。作为成员，我在此期间多次主持各项活动。这段经历精进了我的公众演讲和活动组织能力。
+
+% \hangindent=2em\textbf{模拟联合国协会：} 参加模拟联合国协会，担任设计部部长。在此期间我负责为协会设计宣传材料，这提高了我的设计技能和领导能力。
+
+% Summary / Statement
+\cvsection{个人总结}
+\indent
+
+\hangindent=2em 我拥有两年多的前端开发经验，热衷于打造出为人们带来价值与愉悦的工具。我的兴趣横跨通信技术、Linux、计算机网络、排版、设计与摄影。我还喜欢冲泡咖啡，这反映了我对细节的关注和对卓越的追求。我的兴趣和技能多种多样，这使我在应对科技行业的各种挑战时具有很强的适应性和创新性。
+
+% \section*{\hfill\color{OliveGreen}\today}
+\end{CJK}
+
+\end{document}

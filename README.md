@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @rbtzh
-- 👀 I’m interested in Frontend and Design
-- 🌱 I’m currently learning Communication Engineering
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me hi@zhaoyanbo.com
+- 👀 I’m interested in a lot of things! Frontend, Design, Android, ESP32, and COFFEE!
+- 🌱 I’m currently learning Communication Engineering in Xi'an University of Posts and Telecommunications, Xi'an, China
+- 💞️ I’m looking for an internship, could be focus on testing, golang, python and frontend
+- 📫 Feel free to reach me at hi@zhaoyanbo.com
 
 <!---
 rbtzh/rbtzh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
